@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?up9yd2');
-  src:  url('fonts/icomoon.eot?up9yd2#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?up9yd2') format('truetype'),
-    url('fonts/icomoon.woff?up9yd2') format('woff'),
-    url('fonts/icomoon.svg?up9yd2#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?gi7vf2');
+  src:  url('fonts/icomoon.eot?gi7vf2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gi7vf2') format('truetype'),
+    url('fonts/icomoon.woff?gi7vf2') format('woff'),
+    url('fonts/icomoon.svg?gi7vf2#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-world:before {
+  content: "\e90d";
+}
+.icon-globe:before {
+  content: "\e90d";
+}
+.icon-internet:before {
+  content: "\e90d";
+}
+.icon-network:before {
+  content: "\e90d";
+}
+.icon-line-chart:before {
+  content: "\e90e";
+}
+.icon-area-chart:before {
+  content: "\e90f";
+}
+.icon-bar-chart:before {
+  content: "\e910";
+}
 .icon-calculator:before {
   content: "\e90c";
 }
@@ -225,4 +246,28 @@
 }
 .icon-file-text2:before {
   content: "\e926";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-map2:before {
+  content: "\e94c";
+}
+.icon-pie-chart:before {
+  content: "\e99a";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-target:before {
+  content: "\e9b3";
+}
+.icon-table2:before {
+  content: "\ea71";
 }
